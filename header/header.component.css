@@ -1,0 +1,29 @@
+.navbar-brand{
+    font-weight: 700;
+    margin-left: 4em;
+    
+}
+
+/* .form-control{
+    border-radius: 20px;
+} */
+
+.nav-bar{
+    justify-content: space-between;
+    
+}
+
+li{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.navbar li {
+    margin-left : 4em;
+    margin-right : 3em;
+}
+
+.home{
+ margin-left: 7em;   
+}

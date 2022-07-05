@@ -1,0 +1,25 @@
+html{
+    background-color: whitesmoke;
+}
+.categ-header{
+    text-align: center;
+}
+
+.main-div {
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+    background-color: whitesmoke; 
+    border-radius: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.home-div{
+    position: sticky;
+    top: 400px;
+}

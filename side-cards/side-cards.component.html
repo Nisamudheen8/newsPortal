@@ -1,0 +1,24 @@
+<div class="container card-div  d-flex align-items-end flex-column mt-5 " style="width: 20%;">
+  <h3 class=" categ-header mt-5 mb-5 me-5">Related News</h3>
+
+<div *ngFor="let d of newsApi" class="main-div col-sm-12 mb-4 ;" style="width: 100%;">
+     
+  <img class="card-img-top rounded-5 mt-5" src="{{d.urlToImage}}" alt="Card image cap">
+  <div class="row">
+    <div class="col-6">
+      <span class="rounded-5" style="border-radius: 10px;">SomeText</span>
+    </div>
+      <div class="col-6 container justify-content-between icons"><i class="fa-solid fa-eye"></i>2.5m&nbsp; &nbsp; 
+        <i class="fa-solid fa-message"></i> 15k &nbsp; &nbsp; 
+        <i class="fa-solid fa-share-nodes"></i> 39k &nbsp;
+      </div>
+  </div>
+  <div class="card-body container">
+    <h3 class="card-title mt-4 container" style="font-size: .9em;">{{d.title}}</h3>
+    <h6 class="card-text mt-2 container" style="font-size: .7em;">By {{d.author}}</h6>
+  </div>
+  <button class="btn btn-dark mt-3 ms-2 mb-3">Read More</button>
+  <a href="" class="mt-5 container"></a>
+</div>
+
+</div>

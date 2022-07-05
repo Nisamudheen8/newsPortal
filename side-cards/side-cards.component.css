@@ -1,0 +1,13 @@
+.card-div{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    float: right;
+}
+
+.main-div{
+    background-color: whitesmoke;
+    border-radius: 20px;
+
+}

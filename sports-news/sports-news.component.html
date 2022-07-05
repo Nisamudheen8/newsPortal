@@ -1,0 +1,24 @@
+<div class="container home-div ms-auto clearfix">
+  <h3 class="categ-header mt-5">Sports News</h3>
+
+<div *ngFor="let d of sportsNews" class="main-div col-sm-12 "  style="width: 55%;">
+     
+  <img class="card-img-top rounded-5 " src="{{d.urlToImage}}" alt="Card image cap">
+  <div class="row mt-5 mb-4 container">
+    <div class="col-6">
+      <span class="rounded-5" style="border-radius: 10px;">SomeText</span>
+    </div>
+      <div class="col-6 container icons d-flex align-items-end"><i class="fa-solid fa-eye "></i>2.5m&nbsp; &nbsp; 
+        <i class="fa-solid fa-message m"></i> 15k &nbsp; &nbsp; 
+        <i class="fa-solid fa-share-nodes"></i> 39k &nbsp;
+      </div>
+  </div>
+  <div class="card-body container">
+    <h3 class="card-title mt-4 container">{{d.title}}</h3>
+    <h6 class="card-text mt-2 container">By {{d.author}}</h6>
+  </div>
+  <button class="btn btn-dark mt-3 ms-2 mb-3">Read More</button>
+  <a href="" class="mt-5 container"></a>
+</div>
+
+</div>

@@ -1,0 +1,51 @@
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: black;
+    
+}
+
+.categ-list{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    
+    
+}
+
+.categ-list:hover{
+    padding-left: 3px;
+    transition: .5s;
+}
+
+.categ-head{
+    font-size: 1.4em;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+.category{
+    background-color: whitesmoke;
+    width: 15%;
+    border-radius: 25px;
+    position: static;
+    
+}
+
+
+.profile{
+    background-color: whitesmoke;
+    width: 15%;
+    border-radius: 25px;
+    margin-top: 30px;
+    position:static ;
+}
